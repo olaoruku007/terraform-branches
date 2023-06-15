@@ -10,7 +10,7 @@ resource "aws_instance" "terraform-pro" {
   
 
   tags = {
-    "Name" = "terraform-pro-server"
+    "Name" = var.instance_name
   }
 
 }
