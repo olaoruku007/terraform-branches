@@ -10,6 +10,14 @@ variable "instance_type" {
   default     = "t2.small"
 }
 
+variable "instance_name" {
+  description = " The instance type to be used"
+  type        = string
+  default     = "terraform-server-Prod"
+}
+
+
+
 
 
 
