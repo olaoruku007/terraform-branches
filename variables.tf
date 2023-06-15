@@ -10,9 +10,6 @@ variable "instance_type" {
   default     = "t2.small"
 }
 
-
-
-
 variable "key_pair_name" {
   description = "Name of the AWS key pair"
   type        = string
