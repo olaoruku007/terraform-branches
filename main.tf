@@ -3,14 +3,13 @@ provider "aws" {
 }
 
 
-
 resource "aws_instance" "terraform-pro" {
   ami                         = var.ami
   instance_type               = var.instance_type
   
 
   tags = {
-    "Name" = "terraform-pro-server"
+    "Name" = var.instance_name
   }
 
 }
